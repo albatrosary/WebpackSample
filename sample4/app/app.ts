@@ -1,6 +1,5 @@
-import greeter = require('./greeter');  
-import $ = require('jquery');
+import * as $ from 'jquery';
 
 $(() => {
-  $(document.body).html(greeter("World"));
+    $(document.body).html("hello sample4");
 });

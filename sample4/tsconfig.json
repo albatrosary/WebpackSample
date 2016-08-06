@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "sourceMap": true
+    "sourceMap": false,
+    "target": "ES5",
+    "outDir": "app/bin",
+    "module": "commonjs"
   },
   "files": [
-    "app/app.ts",
-    "typings/tsd.d.ts"
+    "typings/index.d.ts",
+    "app/app.ts"
   ]
 }
