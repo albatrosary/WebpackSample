@@ -1,1 +1,1 @@
-# Webpack Sample
+# Webpack & npm module
