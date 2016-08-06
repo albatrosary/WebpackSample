@@ -1,0 +1,1 @@
+module.exports = (msg) => document.write('[print]', msg);
