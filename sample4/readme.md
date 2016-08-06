@@ -1,2 +1,32 @@
-http://blog.syati.info/post/typescript_webpack/
-http://www.jbrantly.com/typescript-and-webpack/
+## webpack.config.js
+
+(package.json)
+```json
+{
+  "name": "sample4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "lite-server",
+    "postinstall": "typings install dt~jquery -SG"
+  },
+  "author": "Fumio SAGAWA",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2",
+    "webpack": "^1.13.1"
+  }
+}
+```
+
+```bash
+webpack
+```

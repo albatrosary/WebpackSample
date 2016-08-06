@@ -1,3 +1,7 @@
+# Webpack and Angular2.RC4
+
+(package.json)
+```json
 {
   "name": "sample5",
   "version": "1.0.0",
@@ -35,3 +39,4 @@
     "webpack": "^1.13.1"
   }
 }
+```
