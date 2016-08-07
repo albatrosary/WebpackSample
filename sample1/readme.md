@@ -6,13 +6,10 @@
 mkdir SampleApp && cd $_ 
 ```
 
-### install webapck
+### install webapck and http-server
 
 ```bash
 npm i webpack -g
-```
-
-```bash
 npm i http-server -g
 ```
 

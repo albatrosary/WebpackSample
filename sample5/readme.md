@@ -40,3 +40,49 @@
   }
 }
 ```
+
+## Entry Point
+
+(app/vendor.ts)
+```typescript
+import "@angular/common";
+import "@angular/compiler";
+import "@angular/core";
+import "@angular/forms";
+import "@angular/http";
+import "@angular/platform-browser";
+import "@angular/platform-browser-dynamic";
+import "@angular/router";
+import 'rxjs';
+```
+
+
+(app/polyfills.ts)
+```typescript
+import 'core-js/es6';
+import 'zone.js/dist/zone';
+import 'reflect-metadata';
+```
+
+
+(app/app.ts)
+```typescript
+import {bootstrap}    from '@angular/platform-browser-dynamic';
+import {AppComponent} from './app.component';
+
+bootstrap(AppComponent);
+```
+
+AppComponent(app/app.component.ts)
+```typescript
+import {Component} from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  template: `
+  <h1>My First Angular 2 App</h1>
+  `
+})
+
+export class AppComponent { }
+```

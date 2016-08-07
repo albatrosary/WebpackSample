@@ -27,6 +27,22 @@
 }
 ```
 
+(webpack.config.js)
+```javascript
+module.exports = {
+  entry: './app/app.ts',
+  output: {
+    filename: './app/bin/bundle.js'
+  },
+  module: {
+    loaders: [
+      { test: /\.tsx?$/, loader: 'ts-loader' }
+    ]
+  }
+}
+```
+
 ```bash
-webpack
+npm run build
+npm run server
 ```
