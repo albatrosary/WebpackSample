@@ -6,7 +6,6 @@
     "module": "commonjs"
   },
   "files": [
-    "typings/index.d.ts",
     "app/app.ts"
   ]
 }
