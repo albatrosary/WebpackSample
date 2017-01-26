@@ -9,20 +9,19 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "server": "lite-server",
-    "postinstall": "typings install dt~jquery -SG"
+    "server": "lite-server"
   },
   "author": "Fumio SAGAWA",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.1.0"
+    "jquery": "^3.1.1"
   },
   "devDependencies": {
+    "@types/jquery": "^2.0.39",
     "lite-server": "^2.2.2",
     "ts-loader": "^0.8.2",
-    "typescript": "^1.8.10",
-    "typings": "^1.3.2",
-    "webpack": "^1.13.1"
+    "typescript": "^2.1.5",
+    "webpack": "^1.14.0"
   }
 }
 ```
