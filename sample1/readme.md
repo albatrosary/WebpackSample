@@ -16,7 +16,7 @@ npm i http-server -g
 ### make application
 
 open VSCode next `!` and press 'tab' key
-add `<script src="build.js"></script>` under 'body' tag
+add `<script src="bin/build.js"></script>` under 'body' tag
 
 (index.html)
 ```html
@@ -27,7 +27,7 @@ add `<script src="build.js"></script>` under 'body' tag
   <title>Document</title>
 </head>
 <body>
-  <script src="bundle.js"></script>
+  <script src="bin/bundle.js"></script>
 </body>
 </html>
 ```
